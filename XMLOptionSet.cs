@@ -15,7 +15,6 @@ namespace XMLCreate
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Are you sure you want use to these settings?", "Settings", MessageBoxButtons.YesNo) == DialogResult.Yes)

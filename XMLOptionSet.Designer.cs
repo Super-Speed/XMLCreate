@@ -28,25 +28,25 @@
         /// </summary>
         public void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.version = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.gamewii = new System.Windows.Forms.TextBox();
+            this.amount = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // version
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.version.FormattingEnabled = true;
+            this.version.Items.AddRange(new object[] {
             "1",
             "2"});
-            this.comboBox1.Location = new System.Drawing.Point(174, 25);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 0;
+            this.version.Location = new System.Drawing.Point(174, 25);
+            this.version.Name = "version";
+            this.version.Size = new System.Drawing.Size(121, 21);
+            this.version.TabIndex = 0;
             // 
             // label1
             // 
@@ -66,28 +66,28 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Game ID";
             // 
-            // textBox1
+            // gamewii
             // 
-            this.textBox1.Location = new System.Drawing.Point(174, 66);
-            this.textBox1.MaxLength = 4;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(115, 20);
-            this.textBox1.TabIndex = 3;
+            this.gamewii.Location = new System.Drawing.Point(174, 66);
+            this.gamewii.MaxLength = 4;
+            this.gamewii.Name = "gamewii";
+            this.gamewii.Size = new System.Drawing.Size(115, 20);
+            this.gamewii.TabIndex = 3;
             // 
-            // comboBox2
+            // amount
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.amount.FormattingEnabled = true;
+            this.amount.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
             "5",
             "6"});
-            this.comboBox2.Location = new System.Drawing.Point(12, 25);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(153, 21);
-            this.comboBox2.TabIndex = 4;
+            this.amount.Location = new System.Drawing.Point(12, 25);
+            this.amount.Name = "amount";
+            this.amount.Size = new System.Drawing.Size(153, 21);
+            this.amount.TabIndex = 4;
             // 
             // label3
             // 
@@ -115,11 +115,11 @@
             this.ClientSize = new System.Drawing.Size(301, 102);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.amount);
+            this.Controls.Add(this.gamewii);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.version);
             this.Name = "XMLOptionSet";
             this.Text = "XML Options";
             this.ResumeLayout(false);
@@ -129,11 +129,11 @@
 
         #endregion
 
-        public System.Windows.Forms.ComboBox comboBox1;
+        public System.Windows.Forms.ComboBox version;
         public System.Windows.Forms.Label label1;
         public System.Windows.Forms.Label label2;
-        public System.Windows.Forms.TextBox textBox1;
-        public System.Windows.Forms.ComboBox comboBox2;
+        public System.Windows.Forms.TextBox gamewii;
+        public System.Windows.Forms.ComboBox amount;
         public System.Windows.Forms.Label label3;
         public System.Windows.Forms.Button button1;
     }
